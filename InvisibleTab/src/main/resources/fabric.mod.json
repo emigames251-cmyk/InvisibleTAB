@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "invisibletab",
+  "version": "${version}",
+  "name": "InvisibleTab",
+  "description": "Masque automatiquement du TAB les joueurs ayant l'effet Invisibilite.",
+  "authors": ["Emi"],
+  "environment": "server",
+  "entrypoints": {
+    "main": ["fr.emi.invisibletab.InvisibleTab"]
+  },
+  "mixins": [
+    "invisibletab.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
